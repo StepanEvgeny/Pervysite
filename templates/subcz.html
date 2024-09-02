@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Zodpovězené informace</title>
+	<style>
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            display: table;
+        }
+
+        .my-block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .btn {
+            display: inline-block; /* Строчно-блочный элемент */
+            background: #3e8e41; /* Серый цвет фона */
+            color: #fff; /* Белый цвет текста */
+            padding: 1rem 1.5rem; /* Поля вокруг текста */
+            text-decoration: none; /* Убираем подчёркивание */
+            border-radius: 15px; /* Скругляем уголки */
+          }
+        </style>
+  </head>
+  <body>
+	<div class="my_forming">
+		<h1 class="centuris"><u><b>Formulář úspěšně odeslán!</b></u></h1>
+		<p>&nbsp;</p>
+    <h3>Vaše pošta: {{email}}</h3>
+    <h3>Váš komentář: {{comment}}</h3>
+    <h3><b>Díky za zpětnou vazbu!</b></h3>
+    <body>
+      <a href="/cz" class="btn">Vrátit se</a>
+    </body>
+    </div>
+  </body>
+</html>

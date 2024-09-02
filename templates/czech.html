@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <style>
+    * {
+     margin: 0;
+     padding: 0;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Globální oteplování</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <table>
+          <tr>
+          <td>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#home">Hlavní stranka!</a>
+          </li>
+          <br></br>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#about">Stručná informace!</a>
+          </li>
+          </td>
+          </tr>
+          </table>
+          <table>
+          <tr>
+          <td>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">Příčina problém!</a>
+          </li>
+          <br></br>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#problem">Způsoby řešení</a>
+          </li>
+          </td>
+          </tr>
+          </table>
+          <table>
+          <tr>
+          <td>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#form">Zpětná vazba!</a>
+          </li>
+          <br></br>
+          <div class="droper">
+            <button class="dropb">Language</button>
+            <div class="droper-content">
+            <a href="/">RUS</a>
+            <a href="/eng">ENG</a>
+            </div>
+          </div>
+          </td>
+          </tr>
+          </table>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Секция превью -->
+      <section class="main__home home" id="home">
+        <h1 class="home__title">GLOBÁLNÍ OTEPLOVÁNÍ</h1>
+        <p class="home__subtitle">STRUČNÉ INFORMACE, PŘÍČINY PROBLÉMU, ZPŮSOBY ŘEŠENÍ</p>
+        <img
+            class="info-block__img"
+            src="../static/img/ima.png"
+            alt="me"
+            width="1000"
+            height="750"
+            />
+      </section>
+      <!-- Секция с рассказом о себе -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title">STRUČNÉ INFORMACE</h2>
+        <div class="about__info info-block">
+          <h3 class="info-block__text">
+            Globální oteplování je dlouhodobý nárůst průměrné teploty na Zemi, 
+            způsobené lidskou činností, zejména spalováním fosilních paliv(uhlí ,ropa, plyn),
+            což vede k hromadění skleníkových plynů (např. CO2) v atmosféře. Tato změna klimatu způsobuje tání ledovců,
+            zvýšení hladiny světových oceánů, změna počasí, zvýšení frekvence extrémních povětrnostních jevů,
+            jako hurikány, sucha a záplavy. V důsledku toho trpí ekosystém,
+            zemědělství, zásobování vodou a zdraví lidí. Boj proti globálnímu oteplování vyžaduje snížení emisí
+            skleníkových plynů a přechodu k udržitelnějším zdrojům energie.
+          <div class=""></div>
+          </h3>
+          <img
+            class="info-block__img"
+            src="../static/img/Globalnoe-poteplenie.jpg"
+            alt="me"
+            width="500"
+            height="500"
+          />
+        </div>
+      </section>
+      <!-- Секция со скиллами -->
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">PŘÍČINY PROBLÉMU</h2>
+        <form action="/" method="POST">
+          <ul class="skills__list skills-list">
+            <table>
+            <tr>
+            <td>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">1. Spalování fosilních paliv</span>
+              <img
+                class="skill__img"
+                src="../static/img/zhil.jpg"
+                alt="python"
+                width="150"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Spalování fosilních paliv</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/gan.jpg"
+                    alt="python"
+                    width="450"
+                    height="300"
+                  />
+                  <p><font color="#000000">Fosilní paliva, jako je uhlí, ropa a zemní plyn, jsou široce používána k výrobě elektřiny, 
+                    vytápění a doprava. Když jsou tyto materiály spáleny, uvolňují oxid uhličitý (CO2) a další skleníkové plyny. 
+                    CO2 je hlavní skleníkový plyn, který zadržuje teplo v atmosféře a zvyšuje skleníkový efekt. 
+                    V posledních desetiletích se díky růstu průmyslu, dopravy a spotřeby energie výrazně zvýšily emise CO2, 
+                    což se stalo jedním z hlavních faktorů globálního oteplování.</font></p>
+                </div>
+              </div>
+            </li>
+            <br></br>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">2. Průmyslová výroba</span>
+              <img
+                class="skill__img"
+                src="../static/img/omish.jpg"
+                alt="discord"
+                width="150"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a><h3><u>Průmyslová výroba</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/chel.jpg"
+                    alt="python"
+                    width="450"
+                    height="300"
+                  />
+                  <p><font color="#000000">Průmyslový sektor zahrnující průmyslová odvětví, jako je metalurgie, chemický průmysl a výroba cementu, 
+                    je významným zdrojem emisí skleníkových plynů. Továrny a továrny využívají velké množství energie, 
+                    obvykle získané z fosilních paliv, což vede k emisím CO2. Některé průmyslové procesy, 
+                    například výroba cementu sama o sobě uvolňuje CO2. Za emise je zodpovědný i chemický průmysl 
+                    jiné skleníkové plyny, jako jsou plyny obsahující fluorid, které mají velmi vysoký potenciál globálního 
+                    oteplování.</font></p>
+                </div>
+            </li>
+            </td>
+            </tr>
+            </table>
+
+            <table>
+            <tr>
+            <td>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">3. Zemědělství</span>
+              <img
+                class="skill__img"
+                src="../static/img/se.jpg"
+                alt="html"
+                width="300"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Zemědělství</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/kombai.jpg"
+                    alt="python"
+                    width="450"
+                    height="300"
+                  />
+                  <p><font color="#000000">Zemědělství je důležitým zdrojem skleníkových plynů, zejména metanu (CH4) a oxidu dusného (N2O). 
+                    Metan se uvolňuje v procesu trávení skotu (krávy, ovce) a při rozkladu organických látek v 
+                    nedostatek kyslíku například na rýžových polích. Oxid dusnatý se uvolňuje při použití dusíkatých hnojiv, 
+                    které jsou široce používány ke zvýšení výnosu. Tyto plyny mají mnohem vyšší globální potenciál 
+                    oteplování ve srovnání s CO2, přestože jejich koncentrace v atmosféře je výrazně nižší.</font></p>
+                </div>
+              </div>
+            </li>
+            <br></br>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">4. Vynesení (deforestace)</span>
+              <img
+                class="skill__img"
+                src="../static/img/vy.jpg"
+                alt="SQL"
+                width="150"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Vynesení (deforestace)</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/vyrubka-lesa.jpg"
+                    alt="python"
+                    width="450"
+                    height="250"
+                  />
+                  <p><font color="#000000">Lesy hrají klíčovou roli při absorpci oxidu uhličitého z atmosféry. Masivní odlesňování, zejména 
+                    tropické, vede ke ztrátě tohoto přírodního mechanismu absorpce CO2. Stromy, které se kácejí nebo pálí, 
+                    uvolňují oxid uhličitý nahromaděný v jejich biomase, což zvyšuje celkovou koncentraci CO2 v atmosféře. Deforestace 
+                    vede také ke ztrátě biologické rozmanitosti a narušení vodního cyklu, což zhoršuje dopady změny klimatu.</font></p>
+                </div>
+              </div>
+            </li>
+            </td>
+            </tr>
+            </table>
+
+            <table>
+            <tr>
+            <td>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">5. Využití půdy, urbanizace</span>
+              <img
+                class="skill__img"
+                src="../static/img/ur.jpg"
+                alt="SQL"
+                width="200"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Využití půdy, urbanizace</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/urok.jpg"
+                    alt="python"
+                    width="450"
+                    height="300"
+                  />
+                  <p><font color="#000000">Změna využívání půdy spojená s rozšiřováním měst, výstavbou infrastruktury a intenzivním venkovským 
+                    hospodaření, vede k degradaci přírodních ekosystémů, jako jsou lesy, bažiny a pastviny, které dříve sloužily 
+                    absorbéry CO2. Urbanizace zvyšuje plochu povrchů, které se zahřívají na slunci a uvolňují teplo v 
+                    atmosféru (např. asfalt, beton), která umocňuje efekt "tepelného ostrova". To vede k dalšímu ohřevu 
+                    životní prostředí a zvýšení energetické náročnosti budov.</font></p>
+                </div>
+              </div>
+            </li>
+            <br></br>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">6. Dopravní prostředek</span>
+              <img
+                class="skill__img"
+                src="../static/img/pas.jpg"
+                alt="SQL"
+                width="150"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Dopravní prostředek</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/bus.jpg"
+                    alt="python"
+                    width="450"
+                    height="300"
+                  />
+                  <p><font color="#000000">Dopravní sektor je jedním z největších zdrojů emisí skleníkových plynů. Auta, kamiony, 
+                    letadla, lodě a vlaky spalují obrovské množství benzínu, nafty a leteckého petroleje, což vede 
+                    k uvolňování CO2 a dalších škodlivých látek. Navzdory vývoji technologií a zvýšení účinnosti paliva, 
+                    objem emisí z dopravy nadále roste kvůli rostoucímu počtu vozidel a objemu přepravy. Vklad 
+                    letectví v globální oteplování je zvláště významné kvůli emisím ve vysokých nadmořských výškách, kde jejich dopad na klima 
+                    sílí.</font></p>
+                </div>
+              </div>
+            </li>
+          </td>
+          </tr>
+          </table>
+          </ul>
+        </form>
+      </section>
+
+
+
+
+      <section class="main__skills skills" id="problem">
+        <h2 class="skills__title">ZPŮSOBY ŘEŠENÍ</h2>
+        <form action="/" method="POST">
+          <ul class="skills__list skills-list">
+            <table>
+            <tr>
+            <td>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">1. Snížit emise skleníkových plynů</span>
+              <img
+                class="skill__img"
+                src="../static/img/eco.jpg"
+                alt="python"
+                width="150"
+                height="100"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Snížit emise skleníkových plynů</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/zachrannin.jpg"
+                    alt="python"
+                    width="450"
+                    height="350"
+                  />
+                  <p><font color="#000000">
+                    <p><b><u>1. Přejít na obnovitelnou energii:</u></b> Používejte solární, větrné a jiné čisté zdroje 
+                      energie místo uhlí a ropy.</p>
+                    <p><b><u>2. Повысить энергоэффективность:</u></b> Spotřebujte méně energie, aby byly domácnosti a podniky efektivnější, 
+                      například instalací úsporných žárovek a zateplením budov.</p>
+                    <p><b><u>3. Elektrifikovat dopravu:</u></b> Přejít na elektromobily a veřejnou dopravu s nízkými emisemi.</p>
+                  </font>
+                  </p>
+                </div>
+              </div>
+            <br></br>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">2. Využívat nové technologie</span>
+              <img
+                class="skill__img"
+                src="../static/img/tech.png"
+                alt="discord"
+                width="200"
+                height="150"
+              />
+              <div class="dropdown">
+              <button type="button" type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a><h3><u>Využívat nové technologie</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/technologic.jpg"
+                  alt="python"
+                  width="450"
+                  height="350"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Zachycovat a ukládat uhlík:</u></b> Vývoj technologií, které zachycují CO2 v továrnách a 
+                    elektrárny a skladují je pod zemí.</p>
+                  <p><b><u>2. Rozvoj vodíkové energie:</u></b> Použití vodíku jako čistého paliva.</p>
+                </font>
+                </p>
+              </div>
+              </div>
+            </li>
+            </td>
+            </tr>
+            </table>
+
+            <table>
+            <tr>
+            <td>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">3. Ochrana a obnova přírody</span>
+              <img
+                class="skill__img"
+                src="../static/img/zas.webp"
+                alt="html"
+                width="200"
+                height="150"
+              />
+              <div class="dropdown">
+                <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+                <div class="dropdown-content">
+                  <a name="button_zhik"><h3><u>Ochrana a obnova přírody</u></h3></a>
+                  <img
+                    class="skill__img"
+                    src="../static/img/zasuvk.jpg"
+                    alt="python"
+                    width="450"
+                    height="200"
+                  />
+                  <p><font color="#000000">
+                    <p><b><u>1. Vysadit více stromů:</u></b> Lesy absorbují CO2, takže obnova ztracených lesů pomáhá 
+                      snížit hladinu oxidu uhličitého.</p>
+                    <p><b><u>2. Zachovat ekosystémy:</u></b> Chránit bažiny, Mangrovové lesy a další přírodní oblasti, které pomáhají 
+                      regulovat klima.</p>
+                  </font>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <br></br>
+            <li class="skills-list__skill skill">
+              <span class="skill__info">4. Chytré využití půdy a zemědělství</span>
+              <img
+                class="skill__img"
+                src="../static/img/i.jpg"
+                alt="SQL"
+                width="250"
+                height="100"
+              />
+            <div class="dropdown">
+              <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a name="button_zhik"><h3><u>Chytré využití půdy a zemědělství</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/lego.jpg"
+                  alt="python"
+                  width="450"
+                  height="200"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Snížit emise ze zemědělství:</u></b> Používejte méně hnojiv a zavádějte udržitelnější 
+                    zemědělské metody.</p>
+                  <p><b><u>2. Kombinujte zemědělství s lesy:</u></b> Pěstování stromů spolu se zemědělskými plodinami, 
+                    což pomáhá absorbovat uhlík.</p>
+                </font>
+                </p>
+              </div>
+            </div>
+          </li>
+          </td>
+          </tr>
+          </table>
+
+
+          <table>
+          <tr>
+          <td>
+          <li class="skills-list__skill skill">
+            <span class="skill__info">5. Přechod k udržitelné ekonomice</span>
+            <img
+              class="skill__img"
+              src="../static/img/fin.webp"
+              alt="html"
+              width="150"
+              height="150"
+            />
+            <div class="dropdown">
+              <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a><h3><u>Přechod k udržitelné ekonomice</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/finannsy_2.png"
+                  alt="python"
+                  width="450"
+                  height="200"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Snížit odpad a recyklovat více:</u></b> Méně vyhazovat a více recyklovat, aby se snížilo 
+                    emise z výroby a likvidace.</p>
+                  <p><b><u>2. Vyrábět a konzumovat udržitelně:</u></b> Výrobky s minimálním poškozením životního prostředí a 
+                    podporovat dlouhodobé používání produktů.</p>
+                </font>
+                </p>
+              </div>
+            </div>
+          </li>
+          <br></br>
+          <li class="skills-list__skill skill">
+            <span class="skill__info">6. Spolupráce na mezinárodní úrovni</span>
+            <img
+              class="skill__img"
+              src="../static/img/sot.jpg"
+              alt="SQL"
+              width="150"
+              height="150"
+            />
+            <div class="dropdown">
+              <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a><h3><u>Spolupráce na mezinárodní úrovni</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/mir.jpg"
+                  alt="python"
+                  width="450"
+                  height="200"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Dodržovat mezinárodní dohody:</u></b> Země musí plnit závazky ke snižování emisí, 
+                    například Pařížská dohoda.</p>
+                  <p><b><u>2. Financování ekologických projektů:</u></b> Podporovat rozvojové země v přechodu na čistou energii 
+                    a udržitelný rozvoj.</p>
+                </font>
+                </p>
+              </div>
+            </div>
+          </li>
+          </td>
+          </tr>
+          </table>
+
+          <table>
+          <tr>
+          <td>
+          <li class="skills-list__skill skill">
+            <span class="skill__info">7. Vzdělávat a informovat lidi</span>
+            <img
+              class="skill__img"
+              src="../static/img/info.jpg"
+              alt="html"
+              width="150"
+              height="150"
+            />
+            <div class="dropdown">
+              <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a><h3><u>Vzdělávat a informovat lidi</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/insttru.webp"
+                  alt="python"
+                  width="450"
+                  height="200"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Zvýšit povědomí:</u></b> Vzdělávat lidi o příčinách a důsledcích globálního oteplování a o tom,, 
+                    co můžete udělat, abyste pomohli.</p>
+                  <p><b><u>2. Podporovat ekologický životní styl:</u></b> Vyzvat lidi k využívání veřejné dopravy, snížit 
+                    spotřeba energie a snížení spotřeby masa.</p>
+                </font>
+                </p>
+              </div>
+            </div>
+          </li>
+          <br></br>
+          <li class="skills-list__skill skill">
+            <span class="skill__info">8. Připravte se na změny klimatu</span>
+            <img
+              class="skill__img"
+              src="../static/img/izmena.jpg"
+              alt="SQL"
+              width="250"
+              height="150"
+            />
+            <div class="dropdown">
+              <button type="button" class="dropbtn">ZOBRAZIT PODROBNOSTI</button>
+              <div class="dropdown-content">
+                <a><h3><u>Připravte se na změny klimatu</u></h3></a>
+                <img
+                  class="skill__img"
+                  src="../static/img/teplota.jpg"
+                  alt="python"
+                  width="450"
+                  height="200"
+                />
+                <p><font color="#000000">
+                  <p><b><u>1. Budování udržitelné infrastruktury:</u></b> Navrhněte budovy a silnice, které vydrží extrémní 
+                    povětrnostní podmínky.</p>
+                  <p><b><u>2. Chránit pobřeží:</u></b> Stavět ochranné stavby proti stoupající hladině moře a posilovat pobřeží.</p>
+                </font>
+                </p>
+              </div>
+            </div>
+          </li>
+          </td>
+          </tr>
+          </table>
+        </ul>
+        </form>
+      </section>
+    </section>
+    <!-- Секция с формой обратной связи -->
+     <section>
+      <section class="main__feedback feedback" id="form">
+        <h2 class="feedback__title">Zpětná vazba</h2>
+        <form action="/subczechrep" method="POST" class="feedback__form form">
+          <label for="email">
+            <input type="email" class="form__input" name="email" id="email" placeholder="E-mail" required>
+          </label>
+          <label for="comment">
+            <textarea name="comment" class="form__input" id="text" cols="70" rows="10" required placeholder="Komentář"></textarea>
+          </label>
+          <button class="form__button" type="submit">POSLAT</button>
+        </form>
+      </section>
+     </section>
+    </main>
+    </footer>
+  </body>
+</html>
